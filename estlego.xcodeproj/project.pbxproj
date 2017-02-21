@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD35E8801E5B0A8A00275993 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = FD35E87F1E5B0A8A00275993 /* main.mm */; };
+		FD35E8881E5B0B2400275993 /* Config.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FD35E8861E5B0B2400275993 /* Config.cpp */; };
+		FD35E88C1E5B1B2B00275993 /* BrickLinkElementListQuery.mm in Sources */ = {isa = PBXBuildFile; fileRef = FD35E88A1E5B1B2B00275993 /* BrickLinkElementListQuery.mm */; };
+		FD35E88F1E5C36FA00275993 /* BrickLinkElementPriceQuery.mm in Sources */ = {isa = PBXBuildFile; fileRef = FD35E88D1E5C36FA00275993 /* BrickLinkElementPriceQuery.mm */; };
+		FD35E8921E5C441800275993 /* SetOutput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FD35E8901E5C441800275993 /* SetOutput.cpp */; };
+		FD35E8951E5C4F7A00275993 /* PriceRecord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FD35E8931E5C4F7A00275993 /* PriceRecord.cpp */; };
+		FD35E8981E5C572000275993 /* EstimateOutput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FD35E8961E5C572000275993 /* EstimateOutput.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FD35E87A1E5B0A8A00275993 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FD35E87C1E5B0A8A00275993 /* estlego */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = estlego; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD35E87F1E5B0A8A00275993 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		FD35E8861E5B0B2400275993 /* Config.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Config.cpp; sourceTree = "<group>"; };
+		FD35E8871E5B0B2400275993 /* Config.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Config.hpp; sourceTree = "<group>"; };
+		FD35E8891E5B0B6000275993 /* Prefix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.h; sourceTree = "<group>"; };
+		FD35E88A1E5B1B2B00275993 /* BrickLinkElementListQuery.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BrickLinkElementListQuery.mm; sourceTree = "<group>"; };
+		FD35E88B1E5B1B2B00275993 /* BrickLinkElementListQuery.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BrickLinkElementListQuery.hpp; sourceTree = "<group>"; };
+		FD35E88D1E5C36FA00275993 /* BrickLinkElementPriceQuery.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BrickLinkElementPriceQuery.mm; sourceTree = "<group>"; };
+		FD35E88E1E5C36FA00275993 /* BrickLinkElementPriceQuery.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BrickLinkElementPriceQuery.hpp; sourceTree = "<group>"; };
+		FD35E8901E5C441800275993 /* SetOutput.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SetOutput.cpp; sourceTree = "<group>"; };
+		FD35E8911E5C441800275993 /* SetOutput.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SetOutput.hpp; sourceTree = "<group>"; };
+		FD35E8931E5C4F7A00275993 /* PriceRecord.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PriceRecord.cpp; sourceTree = "<group>"; };
+		FD35E8941E5C4F7A00275993 /* PriceRecord.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PriceRecord.hpp; sourceTree = "<group>"; };
+		FD35E8961E5C572000275993 /* EstimateOutput.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EstimateOutput.cpp; sourceTree = "<group>"; };
+		FD35E8971E5C572000275993 /* EstimateOutput.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = EstimateOutput.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD35E8791E5B0A8A00275993 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD35E8731E5B0A8A00275993 = {
+			isa = PBXGroup;
+			children = (
+				FD35E87E1E5B0A8A00275993 /* estlego */,
+				FD35E87D1E5B0A8A00275993 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD35E87D1E5B0A8A00275993 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD35E87C1E5B0A8A00275993 /* estlego */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD35E87E1E5B0A8A00275993 /* estlego */ = {
+			isa = PBXGroup;
+			children = (
+				FD35E8891E5B0B6000275993 /* Prefix.h */,
+				FD35E87F1E5B0A8A00275993 /* main.mm */,
+				FD35E8861E5B0B2400275993 /* Config.cpp */,
+				FD35E8871E5B0B2400275993 /* Config.hpp */,
+				FD35E88A1E5B1B2B00275993 /* BrickLinkElementListQuery.mm */,
+				FD35E88B1E5B1B2B00275993 /* BrickLinkElementListQuery.hpp */,
+				FD35E88D1E5C36FA00275993 /* BrickLinkElementPriceQuery.mm */,
+				FD35E88E1E5C36FA00275993 /* BrickLinkElementPriceQuery.hpp */,
+				FD35E8901E5C441800275993 /* SetOutput.cpp */,
+				FD35E8911E5C441800275993 /* SetOutput.hpp */,
+				FD35E8931E5C4F7A00275993 /* PriceRecord.cpp */,
+				FD35E8941E5C4F7A00275993 /* PriceRecord.hpp */,
+				FD35E8961E5C572000275993 /* EstimateOutput.cpp */,
+				FD35E8971E5C572000275993 /* EstimateOutput.hpp */,
+			);
+			path = estlego;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD35E87B1E5B0A8A00275993 /* estlego */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD35E8831E5B0A8A00275993 /* Build configuration list for PBXNativeTarget "estlego" */;
+			buildPhases = (
+				FD35E8781E5B0A8A00275993 /* Sources */,
+				FD35E8791E5B0A8A00275993 /* Frameworks */,
+				FD35E87A1E5B0A8A00275993 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = estlego;
+			productName = estlego;
+			productReference = FD35E87C1E5B0A8A00275993 /* estlego */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD35E8741E5B0A8A00275993 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Graphisoft;
+				TargetAttributes = {
+					FD35E87B1E5B0A8A00275993 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3E9E9FN277;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FD35E8771E5B0A8A00275993 /* Build configuration list for PBXProject "estlego" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FD35E8731E5B0A8A00275993;
+			productRefGroup = FD35E87D1E5B0A8A00275993 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD35E87B1E5B0A8A00275993 /* estlego */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD35E8781E5B0A8A00275993 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD35E8951E5C4F7A00275993 /* PriceRecord.cpp in Sources */,
+				FD35E88C1E5B1B2B00275993 /* BrickLinkElementListQuery.mm in Sources */,
+				FD35E8801E5B0A8A00275993 /* main.mm in Sources */,
+				FD35E8981E5C572000275993 /* EstimateOutput.cpp in Sources */,
+				FD35E8881E5B0B2400275993 /* Config.cpp in Sources */,
+				FD35E88F1E5C36FA00275993 /* BrickLinkElementPriceQuery.mm in Sources */,
+				FD35E8921E5C441800275993 /* SetOutput.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FD35E8811E5B0A8A00275993 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = estlego/Prefix.h;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FD35E8821E5B0A8A00275993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = estlego/Prefix.h;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FD35E8841E5B0A8A00275993 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3E9E9FN277;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FD35E8851E5B0A8A00275993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3E9E9FN277;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD35E8771E5B0A8A00275993 /* Build configuration list for PBXProject "estlego" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD35E8811E5B0A8A00275993 /* Debug */,
+				FD35E8821E5B0A8A00275993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD35E8831E5B0A8A00275993 /* Build configuration list for PBXNativeTarget "estlego" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD35E8841E5B0A8A00275993 /* Debug */,
+				FD35E8851E5B0A8A00275993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD35E8741E5B0A8A00275993 /* Project object */;
+}
