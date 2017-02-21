@@ -89,26 +89,30 @@ int main(int argc, const char * argv[]) {
 			if (cfg.GetCalculationPrices () & Price_MinimalNew) {
 				EstimateOutput est (cout, setNumber, setInventory, currentNewPrices, EstimateTypes::Minimal, "new");
 				est.Dump ();
-				cout << endl;
 			}
+
+			cout << endl << endl;
 			
 			if (cfg.GetCalculationPrices () & Price_AverageNew) {
 				EstimateOutput est (cout, setNumber, setInventory, currentNewPrices, EstimateTypes::Average, "new");
 				est.Dump ();
-				cout << endl;
 			}
 			
+			cout << endl << endl;
+
 			if (cfg.GetCalculationPrices () & Price_MinimalUsed) {
 				EstimateOutput est (cout, setNumber, setInventory, currentUsedPrices, EstimateTypes::Minimal, "used");
 				est.Dump ();
-				cout << endl;
 			}
 			
+			cout << endl << endl;
+
 			if (cfg.GetCalculationPrices () & Price_AverageUsed) {
 				EstimateOutput est (cout, setNumber, setInventory, currentUsedPrices, EstimateTypes::Average, "used");
 				est.Dump ();
-				cout << endl;
 			}
+			
+			cout << endl << endl;
 		}
 	}
 	

@@ -148,6 +148,9 @@ vector<BrickLinkInventoryItem> BrickLinkElementListQuery::GetInventoryListFromPa
 			break;
 		} else if ([val compare:@"pciinvItemTypeHeader"] == NSOrderedSame) { //We found the minifigs header! So jump to the next item in the list...
 			continue;
+		} else if ([val compare:@"pciinvSummaryTypeHeader"] == NSOrderedSame) { //We found the summary table! So we ended here...
+			//End of table found
+			break;
 		}
 		
 		//Check the row begin
